@@ -37,4 +37,5 @@ class school_manager(school):
 				print("-"*25)
 
 manager = school_manager("computer","15","computer","Samet Yıldırım","17","250")
+manager.change_lesson()
 manager.show_info()
