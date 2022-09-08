@@ -21,3 +21,4 @@ write = soup.find_all("p")
 
 for i in write:
     print(i.text)
+    print("-"*25)
