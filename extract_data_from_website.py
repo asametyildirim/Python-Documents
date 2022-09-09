@@ -18,7 +18,44 @@ soup = BeautifulSoup(r.content,"html.parser")
 
 write = soup.find_all("p")
 #print(write)
-
+""" 
 for i in write:
     print(i.text)
     print("-"*25)
+"""
+get_div = soup.find("h3",{"class":"feature-post-title"}).a.text
+print(get_div)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
