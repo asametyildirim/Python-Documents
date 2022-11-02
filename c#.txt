@@ -1,0 +1,231 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SınavAlistirma
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+
+            /*
+             
+             *
+            ***
+             *
+
+
+            
+
+
+            Console.WriteLine("Lütfen bir sayı giriniz");
+            int i,j;
+            int n = Convert.ToInt32(Console.ReadLine());
+            for(i=0; i <= n; i++)
+            {
+
+                for (j = 0; j <=(n-i) ;  j++)
+                {
+                    Console.Write(" ");
+                }
+
+             
+
+                for (j = 0; j <= i * 2; j++)
+                {
+                    Console.Write("*");
+                }
+
+
+                for (j = 0; j <= (n - i); j++)
+                {
+                    Console.Write(" ");
+                }
+                Console.Write("\n");
+
+            }
+
+            for (i = 0; i <= n; i++)
+            {
+
+
+                for (j = 0; j <= i; j++)
+                {
+                    Console.Write(" ");
+                }
+
+
+                for (j = 0; j <= (n - i); j++)
+                {
+                    Console.Write("*");
+                }
+
+
+
+
+                for (j = 0; j <= i; j++)
+                {
+                    Console.Write("*");
+                }
+                Console.Write("\n");
+
+            }
+
+             */
+
+            Console.ReadLine();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            /*
+             
+             * 
+            *** 
+              
+           
+         
+          
+            Console.WriteLine("Sayı Giriniz");
+            int n = Convert.ToInt32(Console.ReadLine());
+            for (int i = 0; i < n/2; i++)
+            
+            {
+
+                for (int j = 0; j <= n - i; j++)
+                {
+
+                    Console.Write(" ");
+                }
+
+                for (int j = 0; j <= (i * 2); j++)
+               {
+
+                   Console.Write("*");
+               }
+
+                Console.Write("\n");
+            }
+
+            for (int i = n; i < n / 2; i--)
+
+            {
+
+                for (int j = 0; j <= n - i; j++)
+                {
+
+                    Console.Write(" ");
+                }
+
+                for (int j = 0; j <= (i * 2); j++)
+                {
+
+                    Console.Write("*");
+                }
+
+                Console.Write("\n");
+            }
+
+               */
+
+
+            /*
+             
+            *
+            **  
+            ***
+           
+            for (int i = 0; i < 10; i++)
+            {
+                for(int j = 0; j < i; j++)
+                {
+
+                    Console.Write("*");
+                }
+                Console.Write("\n");
+            }
+             */
+
+
+            /*
+            // Kullanıcıdan 10 adet sayı al ve bunalrı kçükten büyüğe doğru sırala
+            int i = 0;
+            int[] sayi = new int[10];
+            while (i<10)
+            {
+                Console.WriteLine("Lütfen Bir Sayı Giriniz:");
+                 sayi[i] = Convert.ToInt32(Console.ReadLine());
+                i++;
+
+
+
+            }
+            int bir = 1;
+            int kucuk = 0;
+            int gecici = 0;
+            for (int s = 0; s < 10; s++)
+            {
+
+                for(int a = 0; a < 10; a++)
+                {
+                    if (sayi[s] < sayi[a])
+                    {
+                        gecici = sayi[s];
+                        sayi[s] = sayi[a];
+                        sayi[a] = gecici; 
+                    }
+                }
+              
+            }
+
+            foreach (int y in sayi)
+            {
+
+                Console.WriteLine(y);
+
+            }
+
+            */
+
+            /*
+           //suyun sıcaklığına göre katı sıvı gaz ayrımı
+           int sicaklik =  Convert.ToInt32(Console.ReadLine());
+
+            if (sicaklik >= 100)
+            {
+                Console.WriteLine("Suyunuz Gaz Haldedir");
+            } else if (sicaklik < 100)
+            {
+                Console.WriteLine("Suyunuz Katı Haldedir");
+            }
+            else { Console.WriteLine("Suyunuz Sıvı Haldedir"); }
+
+            Console.ReadLine();
+            */
+
+
+
+            Console.ReadLine();
+
+
+
+
+
+
+        }
+    }
+}
