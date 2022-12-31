@@ -1,5 +1,3 @@
-from dronekit import connect
-
 import threading
 
 
